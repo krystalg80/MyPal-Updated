@@ -5,7 +5,7 @@ import './Navbar.css';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand" href="#">
                     <img src={logo} alt="Logo" className="logo" width="200px" />

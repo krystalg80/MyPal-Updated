@@ -5,7 +5,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer mt-5">
+    <footer className="footer">
       <div className="container">
         <p>&copy; 2024 Your Website. All rights reserved.</p>
       </div>

@@ -25,32 +25,43 @@ function BuyNow() {
         <div className="buy-now-page">
             <h1>Our Products</h1>
             <div className="buy-now-container">
-                <div className="collar-item">
-                    <img src={collar1} alt="Collar 1" className="collar-image" />
+                <div className="product-wrapper">
+                    <div className="collar-item">
+                        <img src={collar1} alt="Collar 1" className="collar-image" />
+                    </div>
                     <div className="collar-details">
                         <h2>Brown MyPal</h2>
                         <p>Price: $150.00</p>
                         <button>Coming Soon</button>
                     </div>
                 </div>
-                <div className="collar-item">
-                    <img src={collar2} alt="Collar 2" className="collar-image" />
+                
+                <div className="product-wrapper">
+                    <div className="collar-item">
+                        <img src={collar2} alt="Collar 2" className="collar-image" />
+                    </div>
                     <div className="collar-details">
                         <h2>Grey MyPal</h2>
                         <p>Price: $150.00</p>
                         <button>Coming Soon</button>
                     </div>
                 </div>
-                <div className="collar-item">
-                    <img src={collar3} alt="Collar 3" className="collar-image" />
+                
+                <div className="product-wrapper">
+                    <div className="collar-item">
+                        <img src={collar3} alt="Collar 3" className="collar-image" />
+                    </div>
                     <div className="collar-details">
                         <h2>Pink MyPal</h2>
                         <p>Price: $150.00</p>
                         <button>Coming Soon</button>
                     </div>
                 </div>
-                <div className="collar-item">
-                    <img src={collar4} alt="Collar 4" className="collar-image" />
+                
+                <div className="product-wrapper">
+                    <div className="collar-item">
+                        <img src={collar4} alt="Collar 4" className="collar-image" />
+                    </div>
                     <div className="collar-details">
                         <h2>Red MyPal</h2>
                         <p>Price: $150.00</p>
