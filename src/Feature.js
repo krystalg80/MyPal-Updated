@@ -43,6 +43,7 @@ function Feature() {
             </div>
              <div className="app-preview-container">
                 <h2>Mobile Application Preview</h2>
+                <p>COMING SOON</p>
                 <div className="app-preview-content">
                     <div className="application">
                         <img src={app} alt="Application 1" className="application-image" />

@@ -98,12 +98,11 @@
     border-bottom: 3px solid #9dd1fc;  /* Add blue line */
 }
 
-
 .app-preview-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .application, .homescreen {
@@ -111,16 +110,13 @@
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    border: 1px solid #ddd;
 }
 
 .application-image, .homescreen-image {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
-}
-
-.application-description, .homescreen-description {
-    text-align: left;
 }
 
 .application-description h3, .homescreen-description h3 {
