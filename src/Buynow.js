@@ -69,7 +69,25 @@ function BuyNow() {
                     </div>
                 </div>
             </div>
-            <form onSubmit={handleSubmit}>
+                <div className="why-us">
+                    <h2>Why Choose MyPal?</h2>
+                    <div className="why-us-container">
+                        <div className="why-us-item">
+                            <h4>Real-Time GPS</h4>
+                        </div>
+                        <div className="why-us-item">
+                            <h4>5-day Battery</h4>
+                        </div>
+                        <div className="why-us-item">
+                            <h4>Water Resistant</h4>
+                        </div>
+                        <div className='why-us-item'>
+                            <h4>App Enabled</h4>
+                        </div>
+                     </div>
+                </div>
+
+            {/* <form onSubmit={handleSubmit}>
                 <h2>Sign up to be notified when in Stock!</h2>
                 <div className="form-group">
                     <label htmlFor="firstName">First Name:</label>
@@ -102,7 +120,7 @@ function BuyNow() {
                     />
                 </div>
                 <button type="submit">Sign Up</button>
-            </form>
+            </form> */}
         </div>
     );
 }

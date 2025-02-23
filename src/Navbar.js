@@ -23,7 +23,7 @@ function Navbar() {
                             <Link to="/features" className="nav-link">Features</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/buynow" className="btn btn-info">Shop Now</Link>
+                            <Link to="/buynow" className="btn">Shop Now</Link>
                         </li>
                         {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Outlet/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
