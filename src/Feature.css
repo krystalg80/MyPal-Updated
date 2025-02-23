@@ -3,37 +3,154 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 100px;
+    background-color: #f8f8f8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
-.feature-image {
+.introduction {
+    background-color: #d6ecfc;
+    padding: 40px 20px;
     width: 100%;
-    height: auto;
+    margin-top: 40px;
 }
 
-.feature-description {
+.introduction-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
     padding: 20px;
 }
 
-.feature-description h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+.introduction-text h1 {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #9dd1fc;  /* Add blue line */
 }
 
-.feature-description p {
+
+.introduction-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.feature-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: none;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-box {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.feature-box h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    color: #666;
     font-size: 16px;
-}
-.application-image {
-    width: 150px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    line-height: 1.5;
 }
 
-.homescreen-image {
-    width: 550px; /* Take up the entire width of its container */
-    height: 425px; /* Maintain aspect ratio */
-
+.app-preview-container {
+    max-width: 900px;  /* Reduced from 1200px */
+    margin: 40px auto;
+    padding: 30px 20px;
 }
-.homescreen-description {
-    max-height: calc(100vh - 300px); /* Adjust max-height to fit within the available space */
-    overflow-y: auto; /* Add scroll bar if content exceeds max-height */
+
+.app-preview-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #9dd1fc;  /* Add blue line */
+}
+
+
+.app-preview-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+}
+
+.application, .homescreen {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.application-image, .homescreen-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.application-description, .homescreen-description {
+    text-align: left;
+}
+
+.application-description h3, .homescreen-description h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.application-description p, .homescreen-description p {
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .app-preview-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-box {
+        min-width: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .introduction-text h1 {
+        font-size: 28px;
+    }
+
+    .introduction-text p {
+        font-size: 16px;
+    }
 }
