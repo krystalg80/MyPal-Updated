@@ -85,6 +85,7 @@
     max-width: 900px;  /* Reduced from 1200px */
     margin: 40px auto;
     padding: 30px 20px;
+    
 }
 
 .app-preview-container h2 {
@@ -103,6 +104,12 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 15px;
+    transition: transform 0.3s ease;
+    
+}
+
+.app-preview-content:hover {
+    transform: translateY(-5px);
 }
 
 .application, .homescreen {

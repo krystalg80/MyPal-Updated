@@ -86,8 +86,8 @@ function BuyNow() {
                         </div>
                      </div>
                 </div>
-
-            {/* <form onSubmit={handleSubmit}>
+            <div className="form-container">
+             <form onSubmit={handleSubmit}>
                 <h2>Sign up to be notified when in Stock!</h2>
                 <div className="form-group">
                     <label htmlFor="firstName">First Name:</label>
@@ -120,7 +120,8 @@ function BuyNow() {
                     />
                 </div>
                 <button type="submit">Sign Up</button>
-            </form> */}
+            </form>
+         </div>
         </div>
     );
 }
